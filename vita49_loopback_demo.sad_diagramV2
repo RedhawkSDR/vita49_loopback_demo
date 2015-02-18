@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:diagram="http://sca.jpeojtrs.mil/diagram" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:partitioning="http://sca.jpeojtrs.mil/partitioning" xmlns:sad="http://sca.jpeojtrs.mil/sad" xmi:id="_kjHPMbLaEeS9Jd3tH8zXGg" type="Sad" name="vita49_loopback_demo.sad_diagramV2" measurementUnit="Pixel">
+  <children xmi:type="notation:Shape" xmi:id="_lTProLLaEeS9Jd3tH8zXGg" type="3001" fontName="Sans">
+    <children xmi:type="notation:DecorationNode" xmi:id="_lTSH4LLaEeS9Jd3tH8zXGg" type="5006"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_lTTWALLaEeS9Jd3tH8zXGg" type="7002">
+      <children xmi:type="notation:Shape" xmi:id="_lT7oILLaEeS9Jd3tH8zXGg" type="3002" fontName="Sans">
+        <children xmi:type="notation:DecorationNode" xmi:id="_lT8PMLLaEeS9Jd3tH8zXGg" type="5004"/>
+        <children xmi:type="notation:Node" xmi:id="_lUPxMLLaEeS9Jd3tH8zXGg" type="3003">
+          <children xmi:type="notation:DecorationNode" xmi:id="_lUPxNbLaEeS9Jd3tH8zXGg" type="5001">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_lUQYQLLaEeS9Jd3tH8zXGg" y="5"/>
+          </children>
+          <styles xmi:type="notation:DescriptionStyle" xmi:id="_lUPxMbLaEeS9Jd3tH8zXGg"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_lUPxMrLaEeS9Jd3tH8zXGg" fontName="Sans"/>
+          <styles xmi:type="notation:LineStyle" xmi:id="_lUPxM7LaEeS9Jd3tH8zXGg"/>
+          <element xmi:type="partitioning:UsesPortStub" href="vita49_loopback_demo.sad.xml#//@partitioning/@componentPlacement.0/@componentInstantiation.0/@uses.0"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_lUPxNLLaEeS9Jd3tH8zXGg"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_lUQYQbLaEeS9Jd3tH8zXGg" type="3003">
+          <children xmi:type="notation:DecorationNode" xmi:id="_lUQYRrLaEeS9Jd3tH8zXGg" type="5001">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_lUQYR7LaEeS9Jd3tH8zXGg" y="5"/>
+          </children>
+          <styles xmi:type="notation:DescriptionStyle" xmi:id="_lUQYQrLaEeS9Jd3tH8zXGg"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_lUQYQ7LaEeS9Jd3tH8zXGg" fontName="Sans"/>
+          <styles xmi:type="notation:LineStyle" xmi:id="_lUQYRLLaEeS9Jd3tH8zXGg"/>
+          <element xmi:type="partitioning:UsesPortStub" href="vita49_loopback_demo.sad.xml#//@partitioning/@componentPlacement.0/@componentInstantiation.0/@uses.1"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_lUQYRbLaEeS9Jd3tH8zXGg"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_lUQYSLLaEeS9Jd3tH8zXGg" type="3005">
+          <styles xmi:type="notation:DescriptionStyle" xmi:id="_lUQYSbLaEeS9Jd3tH8zXGg"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_lUQYSrLaEeS9Jd3tH8zXGg" fontName="Sans"/>
+          <styles xmi:type="notation:LineStyle" xmi:id="_lUQYS7LaEeS9Jd3tH8zXGg"/>
+          <element xmi:type="partitioning:ComponentSupportedInterfaceStub" href="vita49_loopback_demo.sad.xml#//@partitioning/@componentPlacement.0/@componentInstantiation.0/@interfaceStub"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_lUQYTLLaEeS9Jd3tH8zXGg"/>
+        </children>
+        <element xmi:type="sad:SadComponentInstantiation" href="vita49_loopback_demo.sad.xml#SigGen_1"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_lT7oIbLaEeS9Jd3tH8zXGg"/>
+      </children>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_lTTWAbLaEeS9Jd3tH8zXGg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_lTTWArLaEeS9Jd3tH8zXGg"/>
+    </children>
+    <element xmi:type="sad:SadComponentPlacement" href="vita49_loopback_demo.sad.xml#//@partitioning/@componentPlacement.0"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_lTProbLaEeS9Jd3tH8zXGg" x="96" y="96"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_ltO48LLaEeS9Jd3tH8zXGg" type="3001" fontName="Sans">
+    <children xmi:type="notation:DecorationNode" xmi:id="_ltO48rLaEeS9Jd3tH8zXGg" type="5006"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_ltO487LaEeS9Jd3tH8zXGg" type="7002">
+      <children xmi:type="notation:Shape" xmi:id="_ltQuILLaEeS9Jd3tH8zXGg" type="3002" fontName="Sans">
+        <children xmi:type="notation:DecorationNode" xmi:id="_ltQuIrLaEeS9Jd3tH8zXGg" type="5004"/>
+        <children xmi:type="notation:Node" xmi:id="_ltUYgLLaEeS9Jd3tH8zXGg" type="3003">
+          <children xmi:type="notation:DecorationNode" xmi:id="_ltUYhbLaEeS9Jd3tH8zXGg" type="5001">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_ltUYhrLaEeS9Jd3tH8zXGg" y="5"/>
+          </children>
+          <styles xmi:type="notation:DescriptionStyle" xmi:id="_ltUYgbLaEeS9Jd3tH8zXGg"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_ltUYgrLaEeS9Jd3tH8zXGg" fontName="Sans"/>
+          <styles xmi:type="notation:LineStyle" xmi:id="_ltUYg7LaEeS9Jd3tH8zXGg"/>
+          <element xmi:type="partitioning:UsesPortStub" href="vita49_loopback_demo.sad.xml#//@partitioning/@componentPlacement.1/@componentInstantiation.0/@uses.0"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ltUYhLLaEeS9Jd3tH8zXGg"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_ltUYh7LaEeS9Jd3tH8zXGg" type="3004">
+          <children xmi:type="notation:DecorationNode" xmi:id="_ltU_kLLaEeS9Jd3tH8zXGg" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_ltU_kbLaEeS9Jd3tH8zXGg" y="5"/>
+          </children>
+          <styles xmi:type="notation:DescriptionStyle" xmi:id="_ltUYiLLaEeS9Jd3tH8zXGg"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_ltUYibLaEeS9Jd3tH8zXGg" fontName="Sans"/>
+          <styles xmi:type="notation:LineStyle" xmi:id="_ltUYirLaEeS9Jd3tH8zXGg"/>
+          <element xmi:type="partitioning:ProvidesPortStub" href="vita49_loopback_demo.sad.xml#//@partitioning/@componentPlacement.1/@componentInstantiation.0/@provides.0"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ltUYi7LaEeS9Jd3tH8zXGg"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_ltU_krLaEeS9Jd3tH8zXGg" type="3004">
+          <children xmi:type="notation:DecorationNode" xmi:id="_ltU_l7LaEeS9Jd3tH8zXGg" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_ltU_mLLaEeS9Jd3tH8zXGg" y="5"/>
+          </children>
+          <styles xmi:type="notation:DescriptionStyle" xmi:id="_ltU_k7LaEeS9Jd3tH8zXGg"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_ltU_lLLaEeS9Jd3tH8zXGg" fontName="Sans"/>
+          <styles xmi:type="notation:LineStyle" xmi:id="_ltU_lbLaEeS9Jd3tH8zXGg"/>
+          <element xmi:type="partitioning:ProvidesPortStub" href="vita49_loopback_demo.sad.xml#//@partitioning/@componentPlacement.1/@componentInstantiation.0/@provides.1"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ltU_lrLaEeS9Jd3tH8zXGg"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_ltU_mbLaEeS9Jd3tH8zXGg" type="3004">
+          <children xmi:type="notation:DecorationNode" xmi:id="_ltU_nrLaEeS9Jd3tH8zXGg" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_ltU_n7LaEeS9Jd3tH8zXGg" y="5"/>
+          </children>
+          <styles xmi:type="notation:DescriptionStyle" xmi:id="_ltU_mrLaEeS9Jd3tH8zXGg"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_ltU_m7LaEeS9Jd3tH8zXGg" fontName="Sans"/>
+          <styles xmi:type="notation:LineStyle" xmi:id="_ltU_nLLaEeS9Jd3tH8zXGg"/>
+          <element xmi:type="partitioning:ProvidesPortStub" href="vita49_loopback_demo.sad.xml#//@partitioning/@componentPlacement.1/@componentInstantiation.0/@provides.2"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ltU_nbLaEeS9Jd3tH8zXGg"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_ltVmoLLaEeS9Jd3tH8zXGg" type="3004">
+          <children xmi:type="notation:DecorationNode" xmi:id="_ltVmpbLaEeS9Jd3tH8zXGg" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_ltVmprLaEeS9Jd3tH8zXGg" y="5"/>
+          </children>
+          <styles xmi:type="notation:DescriptionStyle" xmi:id="_ltVmobLaEeS9Jd3tH8zXGg"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_ltVmorLaEeS9Jd3tH8zXGg" fontName="Sans"/>
+          <styles xmi:type="notation:LineStyle" xmi:id="_ltVmo7LaEeS9Jd3tH8zXGg"/>
+          <element xmi:type="partitioning:ProvidesPortStub" href="vita49_loopback_demo.sad.xml#//@partitioning/@componentPlacement.1/@componentInstantiation.0/@provides.3"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ltVmpLLaEeS9Jd3tH8zXGg"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_ltVmp7LaEeS9Jd3tH8zXGg" type="3004">
+          <children xmi:type="notation:DecorationNode" xmi:id="_ltVmrLLaEeS9Jd3tH8zXGg" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_ltVmrbLaEeS9Jd3tH8zXGg" y="5"/>
+          </children>
+          <styles xmi:type="notation:DescriptionStyle" xmi:id="_ltVmqLLaEeS9Jd3tH8zXGg"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_ltVmqbLaEeS9Jd3tH8zXGg" fontName="Sans"/>
+          <styles xmi:type="notation:LineStyle" xmi:id="_ltVmqrLaEeS9Jd3tH8zXGg"/>
+          <element xmi:type="partitioning:ProvidesPortStub" href="vita49_loopback_demo.sad.xml#//@partitioning/@componentPlacement.1/@componentInstantiation.0/@provides.4"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ltVmq7LaEeS9Jd3tH8zXGg"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_ltVmrrLaEeS9Jd3tH8zXGg" type="3004">
+          <children xmi:type="notation:DecorationNode" xmi:id="_ltWNsLLaEeS9Jd3tH8zXGg" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_ltWNsbLaEeS9Jd3tH8zXGg" y="5"/>
+          </children>
+          <styles xmi:type="notation:DescriptionStyle" xmi:id="_ltVmr7LaEeS9Jd3tH8zXGg"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_ltVmsLLaEeS9Jd3tH8zXGg" fontName="Sans"/>
+          <styles xmi:type="notation:LineStyle" xmi:id="_ltVmsbLaEeS9Jd3tH8zXGg"/>
+          <element xmi:type="partitioning:ProvidesPortStub" href="vita49_loopback_demo.sad.xml#//@partitioning/@componentPlacement.1/@componentInstantiation.0/@provides.5"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ltVmsrLaEeS9Jd3tH8zXGg"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_ltWNsrLaEeS9Jd3tH8zXGg" type="3005">
+          <styles xmi:type="notation:DescriptionStyle" xmi:id="_ltWNs7LaEeS9Jd3tH8zXGg"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_ltWNtLLaEeS9Jd3tH8zXGg" fontName="Sans"/>
+          <styles xmi:type="notation:LineStyle" xmi:id="_ltWNtbLaEeS9Jd3tH8zXGg"/>
+          <element xmi:type="partitioning:ComponentSupportedInterfaceStub" href="vita49_loopback_demo.sad.xml#//@partitioning/@componentPlacement.1/@componentInstantiation.0/@interfaceStub"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ltWNtrLaEeS9Jd3tH8zXGg"/>
+        </children>
+        <element xmi:type="sad:SadComponentInstantiation" href="vita49_loopback_demo.sad.xml#SinkVITA49_1"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ltQuIbLaEeS9Jd3tH8zXGg"/>
+      </children>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_ltO49LLaEeS9Jd3tH8zXGg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_ltO49bLaEeS9Jd3tH8zXGg"/>
+    </children>
+    <element xmi:type="sad:SadComponentPlacement" href="vita49_loopback_demo.sad.xml#//@partitioning/@componentPlacement.1"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ltO48bLaEeS9Jd3tH8zXGg" x="384" y="48"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_m0MhALLaEeS9Jd3tH8zXGg" type="3001" fontName="Sans">
+    <children xmi:type="notation:DecorationNode" xmi:id="_m0MhArLaEeS9Jd3tH8zXGg" type="5006"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_m0MhA7LaEeS9Jd3tH8zXGg" type="7002">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_m0MhBLLaEeS9Jd3tH8zXGg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_m0MhBbLaEeS9Jd3tH8zXGg"/>
+    </children>
+    <element xmi:type="sad:SadComponentPlacement" href="vita49_loopback_demo.sad.xml#//@partitioning/@componentPlacement.2"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_m0MhAbLaEeS9Jd3tH8zXGg" x="768" y="48"/>
+  </children>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_kjHPMrLaEeS9Jd3tH8zXGg"/>
+  <styles xmi:type="diagram:EObjectContainerStyle" xmi:id="_kjHPM7LaEeS9Jd3tH8zXGg" name="FindByStubContainer"/>
+  <element xmi:type="sad:SoftwareAssembly" href="vita49_loopback_demo.sad.xml#DCE:df8d5932-f49f-44c7-9a93-46b3ccbfcd5f"/>
+  <edges xmi:type="notation:Connector" xmi:id="_mWw-ILLaEeS9Jd3tH8zXGg" type="4001" source="_lUPxMLLaEeS9Jd3tH8zXGg" target="_ltU_krLaEeS9Jd3tH8zXGg" routing="Rectilinear" avoidObstructions="true">
+    <styles xmi:type="notation:FontStyle" xmi:id="_mWw-IbLaEeS9Jd3tH8zXGg" fontName="Sans"/>
+    <element xmi:type="sad:SadConnectInterface" href="vita49_loopback_demo.sad.xml#connection_1"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_mWw-IrLaEeS9Jd3tH8zXGg" points="[8, 3, -74, -36]$[82, 39, 0, 0]"/>
+  </edges>
+</notation:Diagram>

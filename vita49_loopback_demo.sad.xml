@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE softwareassembly PUBLIC "-//JTRS//DTD SCA V2.2.2 SAD//EN" "softwareassembly.dtd">
+<softwareassembly id="DCE:df8d5932-f49f-44c7-9a93-46b3ccbfcd5f" name="vita49_loopback_demo">
+  <componentfiles>
+    <componentfile id="SigGen_21f45978-e737-4910-861b-d15f3109e317" type="SPD">
+      <localfile name="/components/SigGen/SigGen.spd.xml"/>
+    </componentfile>
+    <componentfile id="SinkVITA49_39b1b801-8d92-47e8-b457-d4f920f6f02f" type="SPD">
+      <localfile name="/components/SinkVITA49/SinkVITA49.spd.xml"/>
+    </componentfile>
+    <componentfile id="SourceVITA49_fc9fffcc-5ff2-443a-953a-ec2b613695a3" type="SPD">
+      <localfile name="/components/SourceVITA49/SourceVITA49.spd.xml"/>
+    </componentfile>
+  </componentfiles>
+  <partitioning>
+    <componentplacement>
+      <componentfileref refid="SigGen_21f45978-e737-4910-861b-d15f3109e317"/>
+      <componentinstantiation id="SigGen_1" startorder="0">
+        <usagename>SigGen_1</usagename>
+        <componentproperties>
+          <simpleref refid="sample_rate" value="50000.0"/>
+          <simpleref refid="frequency" value="5000.0"/>
+          <simpleref refid="xfer_len" value="50000"/>
+        </componentproperties>
+        <findcomponent>
+          <namingservice name="SigGen_1"/>
+        </findcomponent>
+      </componentinstantiation>
+    </componentplacement>
+    <componentplacement>
+      <componentfileref refid="SinkVITA49_39b1b801-8d92-47e8-b457-d4f920f6f02f"/>
+      <componentinstantiation id="SinkVITA49_1" startorder="1">
+        <usagename>SinkVITA49_1</usagename>
+        <componentproperties>
+          <structref refid="network_settings">
+            <simpleref refid="network_settings::enable" value="true"/>
+            <simpleref refid="network_settings::interface" value="lo"/>
+          </structref>
+          <structref refid="advanced_configuration">
+            <simpleref refid="advanced_configuration::force_transmit" value="true"/>
+            <simpleref refid="advanced_configuration::max_payload_size" value="10000"/>
+            <simpleref refid="advanced_configuration::throttle_time_between_packet_bursts" value="0"/>
+          </structref>
+        </componentproperties>
+        <findcomponent>
+          <namingservice name="SinkVITA49_1"/>
+        </findcomponent>
+      </componentinstantiation>
+    </componentplacement>
+    <componentplacement>
+      <componentfileref refid="SourceVITA49_fc9fffcc-5ff2-443a-953a-ec2b613695a3"/>
+      <componentinstantiation id="SourceVITA49_1" startorder="2">
+        <usagename>SourceVITA49_1</usagename>
+        <componentproperties>
+          <structref refid="advanced_configuration">
+            <simpleref refid="buffer_size" value="100000"/>
+            <simpleref refid="corba_transfersize" value="100000"/>
+          </structref>
+          <structref refid="attachment_override">
+            <simpleref refid="attachment_override::enabled" value="true"/>
+          </structref>
+          <simpleref refid="interface" value="lo"/>
+        </componentproperties>
+        <findcomponent>
+          <namingservice name="SourceVITA49_1"/>
+        </findcomponent>
+      </componentinstantiation>
+    </componentplacement>
+  </partitioning>
+  <assemblycontroller>
+    <componentinstantiationref refid="SigGen_1"/>
+  </assemblycontroller>
+  <connections>
+    <connectinterface id="connection_1">
+      <usesport>
+        <usesidentifier>dataFloat_out</usesidentifier>
+        <componentinstantiationref refid="SigGen_1"/>
+      </usesport>
+      <providesport>
+        <providesidentifier>dataFloat_in</providesidentifier>
+        <componentinstantiationref refid="SinkVITA49_1"/>
+      </providesport>
+    </connectinterface>
+  </connections>
+</softwareassembly>
