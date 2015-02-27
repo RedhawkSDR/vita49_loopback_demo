@@ -20,7 +20,6 @@
         <componentproperties>
           <simpleref refid="sample_rate" value="50000.0"/>
           <simpleref refid="frequency" value="5000.0"/>
-          <simpleref refid="xfer_len" value="50000"/>
         </componentproperties>
         <findcomponent>
           <namingservice name="SigGen_1"/>
@@ -37,9 +36,7 @@
             <simpleref refid="network_settings::interface" value="lo"/>
           </structref>
           <structref refid="advanced_configuration">
-            <simpleref refid="advanced_configuration::force_transmit" value="true"/>
-            <simpleref refid="advanced_configuration::max_payload_size" value="10000"/>
-            <simpleref refid="advanced_configuration::throttle_time_between_packet_bursts" value="0"/>
+            <simpleref refid="advanced_configuration::time_between_context_packets" value="30"/>
           </structref>
         </componentproperties>
         <findcomponent>
@@ -53,11 +50,7 @@
         <usagename>SourceVITA49_1</usagename>
         <componentproperties>
           <structref refid="advanced_configuration">
-            <simpleref refid="buffer_size" value="100000"/>
-            <simpleref refid="corba_transfersize" value="100000"/>
-          </structref>
-          <structref refid="attachment_override">
-            <simpleref refid="attachment_override::enabled" value="true"/>
+            <simpleref refid="corba_transfersize" value="6000"/>
           </structref>
           <simpleref refid="interface" value="lo"/>
         </componentproperties>
@@ -79,6 +72,16 @@
       <providesport>
         <providesidentifier>dataFloat_in</providesidentifier>
         <componentinstantiationref refid="SinkVITA49_1"/>
+      </providesport>
+    </connectinterface>
+    <connectinterface id="connection_2">
+      <usesport>
+        <usesidentifier>dataVITA49_out</usesidentifier>
+        <componentinstantiationref refid="SinkVITA49_1"/>
+      </usesport>
+      <providesport>
+        <providesidentifier>dataVITA49_in</providesidentifier>
+        <componentinstantiationref refid="SourceVITA49_1"/>
       </providesport>
     </connectinterface>
   </connections>
