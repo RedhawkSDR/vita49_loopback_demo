@@ -1,15 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE softwareassembly PUBLIC "-//JTRS//DTD SCA V2.2.2 SAD//EN" "softwareassembly.dtd">
-<softwareassembly id="DCE:df8d5932-f49f-44c7-9a93-46b3ccbfcd5f" name="vita49_loopback_demo">
+<softwareassembly id="DCE:9db753ee-1a26-11e5-b8e7-3417ebc4aab5" name="rh.vita49_loopback_demo">
   <componentfiles>
     <componentfile id="SigGen_21f45978-e737-4910-861b-d15f3109e317" type="SPD">
-      <localfile name="/components/SigGen/SigGen.spd.xml"/>
+      <localfile name="/components/rh/SigGen/SigGen.spd.xml"/>
     </componentfile>
     <componentfile id="SinkVITA49_39b1b801-8d92-47e8-b457-d4f920f6f02f" type="SPD">
-      <localfile name="/components/SinkVITA49/SinkVITA49.spd.xml"/>
+      <localfile name="/components/rh/SinkVITA49/SinkVITA49.spd.xml"/>
     </componentfile>
     <componentfile id="SourceVITA49_fc9fffcc-5ff2-443a-953a-ec2b613695a3" type="SPD">
-      <localfile name="/components/SourceVITA49/SourceVITA49.spd.xml"/>
+      <localfile name="/components/rh/SourceVITA49/SourceVITA49.spd.xml"/>
     </componentfile>
   </componentfiles>
   <partitioning>
