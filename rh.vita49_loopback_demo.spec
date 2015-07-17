@@ -10,8 +10,8 @@ Prefix: %{_prefix}
 Name: rh.vita49_loopback_demo
 Summary: Waveform rh.vita49_loopback_demo
 Version: 1.0.0
-Release: 1
-License: None
+Release: 1%{?dist}
+License: LGPLv3+
 Group: REDHAWK/Waveforms
 Source: %{name}-%{version}.tar.gz
 # Require the controller whose SPD is referenced

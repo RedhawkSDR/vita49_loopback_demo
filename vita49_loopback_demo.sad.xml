@@ -1,6 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE softwareassembly PUBLIC "-//JTRS//DTD SCA V2.2.2 SAD//EN" "softwareassembly.dtd">
-<softwareassembly id="DCE:9db753ee-1a26-11e5-b8e7-3417ebc4aab5" name="rh.vita49_loopback_demo">
+<softwareassembly id="DCE:9db753ee-1a26-11e5-b8e7-3417ebc4aab5" name="rh.vita49_loopback_demo" version="1.0.0">
   <componentfiles>
     <componentfile id="SigGen_21f45978-e737-4910-861b-d15f3109e317" type="SPD">
       <localfile name="/components/rh/SigGen/SigGen.spd.xml"/>

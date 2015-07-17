@@ -1,0 +1,822 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pi:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:al="http://eclipse.org/graphiti/mm/algorithms" xmlns:ext="http://www.redhawk.gov/model/rhsadgext/1.0.0" xmlns:pi="http://eclipse.org/graphiti/mm/pictograms" visible="true" gridUnit="10" diagramTypeId="SADDiagram" name="vita49_loopback_demo.sad_GDiagram" snapToGrid="true" pictogramLinks="//@children.0/@link //@children.0/@children.1/@link //@children.0/@children.1/@anchors.0/@link //@children.0/@children.2/@link //@children.0/@children.3/@link //@children.0/@children.3/@children.0/@link //@children.0/@children.3/@children.0/@children.0/@link //@children.0/@children.3/@children.0/@children.0/@anchors.0/@link //@children.0/@children.3/@children.1/@link //@children.0/@children.3/@children.1/@children.0/@link //@children.0/@children.3/@children.1/@children.0/@anchors.0/@link //@children.0/@children.0/@children.0/@link //@children.1/@link //@children.1/@children.1/@link //@children.1/@children.1/@anchors.0/@link //@children.1/@children.2/@link //@children.1/@children.2/@children.0/@link //@children.1/@children.2/@children.0/@children.0/@link //@children.1/@children.2/@children.0/@children.0/@anchors.0/@link //@children.1/@children.2/@children.1/@link //@children.1/@children.2/@children.1/@children.0/@link //@children.1/@children.2/@children.1/@children.0/@anchors.0/@link //@children.1/@children.2/@children.2/@link //@children.1/@children.2/@children.2/@children.0/@link //@children.1/@children.2/@children.2/@children.0/@anchors.0/@link //@children.1/@children.2/@children.3/@link //@children.1/@children.2/@children.3/@children.0/@link //@children.1/@children.2/@children.3/@children.0/@anchors.0/@link //@children.1/@children.2/@children.4/@link //@children.1/@children.2/@children.4/@children.0/@link //@children.1/@children.2/@children.4/@children.0/@anchors.0/@link //@children.1/@children.2/@children.5/@link //@children.1/@children.2/@children.5/@children.0/@link //@children.1/@children.2/@children.5/@children.0/@anchors.0/@link //@children.1/@children.3/@link //@children.1/@children.3/@children.0/@link //@children.1/@children.3/@children.0/@children.0/@link //@children.1/@children.3/@children.0/@children.0/@anchors.0/@link //@children.2/@link //@children.2/@children.1/@link //@children.2/@children.1/@anchors.0/@link //@children.2/@children.2/@link //@children.2/@children.2/@children.0/@link //@children.2/@children.2/@children.0/@children.0/@link //@children.2/@children.2/@children.0/@children.0/@anchors.0/@link //@children.2/@children.3/@link //@children.2/@children.3/@children.0/@link //@children.2/@children.3/@children.0/@children.0/@link //@children.2/@children.3/@children.0/@children.0/@anchors.0/@link //@children.2/@children.3/@children.1/@link //@children.2/@children.3/@children.1/@children.0/@link //@children.2/@children.3/@children.1/@children.0/@anchors.0/@link //@children.2/@children.3/@children.2/@link //@children.2/@children.3/@children.2/@children.0/@link //@children.2/@children.3/@children.2/@children.0/@anchors.0/@link //@children.2/@children.3/@children.3/@link //@children.2/@children.3/@children.3/@children.0/@link //@children.2/@children.3/@children.3/@children.0/@anchors.0/@link //@children.2/@children.3/@children.4/@link //@children.2/@children.3/@children.4/@children.0/@link //@children.2/@children.3/@children.4/@children.0/@anchors.0/@link //@children.2/@children.3/@children.5/@link //@children.2/@children.3/@children.5/@children.0/@link //@children.2/@children.3/@children.5/@children.0/@anchors.0/@link //@connections.0/@link //@connections.1/@link" version="0.12.0">
+  <properties key="DiagramContext" value="design"/>
+  <graphicsAlgorithm xsi:type="al:Rectangle" background="//@colors.1" foreground="//@colors.0" lineWidth="1" transparency="0.0" width="1000" height="1000"/>
+  <link>
+    <businessObjects href="vita49_loopback_demo.sad.xml#DCE:9db753ee-1a26-11e5-b8e7-3417ebc4aab5"/>
+  </link>
+  <children xsi:type="ext:ComponentShape" visible="true" active="true" connectionMap="ACED0005737200256A6176612E7574696C2E436F6C6C656374696F6E732453796E6368726F6E697A65644D61701B73F9094B4B397B0300024C00016D74000F4C6A6176612F7574696C2F4D61703B4C00056D757465787400124C6A6176612F6C616E672F4F626A6563743B7870737200116A6176612E7574696C2E486173684D61700507DAC1C31660D103000246000A6C6F6164466163746F724900097468726573686F6C6478703F40000000000010770800000010000000007871007E000378" hasPortsContainerShape="true">
+    <properties key="GAType" value="outerContainerShape"/>
+    <graphicsAlgorithm xsi:type="al:RoundedRectangle" lineWidth="1" transparency="0.5" width="189" height="110" x="12" y="12" style="//@styles.0" cornerHeight="5" cornerWidth="5">
+      <properties key="GAType" value="outerRoundedRectangle"/>
+      <graphicsAlgorithmChildren xsi:type="al:Image" lineWidth="1" transparency="0.0" width="16" height="16" x="20" id="gov.redhawk.ide.graphiti.sad.ui.diagram.providers.imageProvider.componentPlacement" stretchH="false" stretchV="false" proportional="false">
+        <properties key="GAType" value="outerRoundedRectangleImage"/>
+      </graphicsAlgorithmChildren>
+      <graphicsAlgorithmChildren xsi:type="al:Text" lineWidth="1" filled="false" transparency="0.0" width="149" height="20" x="40" style="//@styles.1" value="rh.SigGen">
+        <properties key="GAType" value="outerRoundedRectangleText"/>
+      </graphicsAlgorithmChildren>
+    </graphicsAlgorithm>
+    <link>
+      <businessObjects href="vita49_loopback_demo.sad.xml#SigGen_1"/>
+      <businessObjects href="vita49_loopback_demo.sad.xml#DCE:9db753ee-1a26-11e5-b8e7-3417ebc4aab5"/>
+    </link>
+    <children xsi:type="pi:ContainerShape" visible="true">
+      <properties key="GAType" value="innerContainerShape"/>
+      <graphicsAlgorithm xsi:type="al:RoundedRectangle" lineWidth="1" transparency="0.0" width="154" height="90" x="20" y="20" style="//@styles.2" cornerHeight="5" cornerWidth="5">
+        <properties key="GAType" value="innerRoundedRectangle"/>
+        <graphicsAlgorithmChildren xsi:type="al:Image" lineWidth="1" transparency="0.0" width="16" height="16" x="33" y="8" id="gov.redhawk.ide.graphiti.sad.ui.diagram.providers.imageProvider.componentInstance" stretchH="false" stretchV="false" proportional="false">
+          <properties key="GAType" value="innerRoundedRectangleImage"/>
+        </graphicsAlgorithmChildren>
+        <graphicsAlgorithmChildren xsi:type="al:Text" lineWidth="1" filled="false" transparency="0.0" width="77" height="18" x="54" y="8" style="//@styles.3" value="SigGen_1">
+          <properties key="GAType" value="innerRoundedRectangleText"/>
+        </graphicsAlgorithmChildren>
+        <graphicsAlgorithmChildren xsi:type="al:Polyline" background="//@colors.2" foreground="//@colors.2" lineWidth="1" filled="false" transparency="0.0">
+          <properties key="GAType" value="innerRoundedRectangleLine"/>
+          <points y="28"/>
+          <points x="154" y="28"/>
+        </graphicsAlgorithmChildren>
+      </graphicsAlgorithm>
+      <children xsi:type="pi:ContainerShape" visible="true">
+        <properties key="ShapeType" value="startOrderEllipseShape"/>
+        <graphicsAlgorithm xsi:type="al:Ellipse" lineWidth="1" transparency="0.0" width="17" height="17" x="132" y="5" style="//@styles.7">
+          <properties key="GAType" value="startOrderEllipse"/>
+        </graphicsAlgorithm>
+        <link>
+          <businessObjects href="vita49_loopback_demo.sad.xml#//@assemblyController"/>
+        </link>
+        <children visible="true">
+          <graphicsAlgorithm xsi:type="al:Text" lineWidth="1" filled="false" transparency="0.0" width="17" height="17" x="5" style="//@styles.8" value="0">
+            <properties key="GAType" value="startOrderText"/>
+          </graphicsAlgorithm>
+        </children>
+      </children>
+    </children>
+    <children xsi:type="pi:ContainerShape" visible="true" active="true">
+      <properties key="GAType" value="interfaceContainerShape"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" transparency="0.99" width="20" height="10" y="25"/>
+      <link>
+        <businessObjects href="vita49_loopback_demo.sad.xml#//@partitioning/@componentPlacement.0/@componentInstantiation.0/@interfaceStub"/>
+      </link>
+      <anchors xsi:type="pi:FixPointAnchor" visible="true" active="true" referencedGraphicsAlgorithm="//@children.0/@children.1/@graphicsAlgorithm" useAnchorLocationAsConnectionEndpoint="true">
+        <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" transparency="0.99" width="20" height="10" y="-5"/>
+        <link>
+          <businessObjects href="vita49_loopback_demo.sad.xml#//@partitioning/@componentPlacement.0/@componentInstantiation.0/@interfaceStub"/>
+        </link>
+        <location y="7"/>
+      </anchors>
+      <children visible="true" active="true">
+        <properties key="GAType" value="interfaceEllipseShape"/>
+        <graphicsAlgorithm xsi:type="al:Ellipse" lineWidth="1" transparency="0.0" width="10" height="10" style="//@styles.4"/>
+      </children>
+      <children xsi:type="pi:ContainerShape" visible="true">
+        <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" transparency="0.0" width="10" height="1" x="10" y="5" style="//@styles.5"/>
+      </children>
+    </children>
+    <children xsi:type="pi:ContainerShape" visible="true" active="true">
+      <properties key="ShapeType" value="providesPortsContainerShape"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" transparency="1.0" width="45" x="5" y="60">
+        <properties key="GAType" value="providesPortsRectangle"/>
+      </graphicsAlgorithm>
+      <link/>
+    </children>
+    <children xsi:type="pi:ContainerShape" visible="true" active="true">
+      <properties key="ShapeType" value="usesPortsContainerShape"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" transparency="1.0" width="115" height="40" x="74" y="60">
+        <properties key="GAType" value="usesPortsRectangle"/>
+      </graphicsAlgorithm>
+      <link>
+        <businessObjects href="vita49_loopback_demo.sad.xml#//@partitioning/@componentPlacement.0/@componentInstantiation.0/@uses.0"/>
+        <businessObjects href="vita49_loopback_demo.sad.xml#//@partitioning/@componentPlacement.0/@componentInstantiation.0/@uses.1"/>
+      </link>
+      <children xsi:type="pi:ContainerShape" visible="true" active="true">
+        <properties key="ShapeType" value="usesPortContainerShape"/>
+        <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" transparency="1.0" width="110" height="15" x="5"/>
+        <link>
+          <businessObjects href="vita49_loopback_demo.sad.xml#//@partitioning/@componentPlacement.0/@componentInstantiation.0/@uses.0"/>
+        </link>
+        <children xsi:type="pi:ContainerShape" visible="true" active="true">
+          <properties key="ShapeType" value="usesPortRectangleShape"/>
+          <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" transparency="0.0" width="15" height="15" x="95" style="//@styles.6">
+            <properties key="GAType" value="usesPortRectangle"/>
+          </graphicsAlgorithm>
+          <link>
+            <businessObjects href="vita49_loopback_demo.sad.xml#//@partitioning/@componentPlacement.0/@componentInstantiation.0/@uses.0"/>
+          </link>
+          <anchors xsi:type="pi:FixPointAnchor" visible="true" active="true" outgoingConnections="//@connections.0" referencedGraphicsAlgorithm="//@children.0/@children.3/@children.0/@children.0/@graphicsAlgorithm" useAnchorLocationAsConnectionEndpoint="true">
+            <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" transparency="0.0" width="15" height="15" x="-15" y="-7" style="//@styles.6">
+              <properties key="GAType" value="GA_FIX_POINT_ANCHOR_RECTANGLE"/>
+            </graphicsAlgorithm>
+            <link>
+              <businessObjects href="vita49_loopback_demo.sad.xml#//@partitioning/@componentPlacement.0/@componentInstantiation.0/@uses.0"/>
+            </link>
+            <location x="15" y="7"/>
+          </anchors>
+        </children>
+        <children visible="true">
+          <graphicsAlgorithm xsi:type="al:Text" lineWidth="1" filled="false" transparency="0.0" width="90" height="20" style="//@styles.6" horizontalAlignment="ALIGNMENT_RIGHT" value="dataFloat_out">
+            <properties key="GAType" value="GA_USES_PORT_TEXT"/>
+          </graphicsAlgorithm>
+        </children>
+      </children>
+      <children xsi:type="pi:ContainerShape" visible="true" active="true">
+        <properties key="ShapeType" value="usesPortContainerShape"/>
+        <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" transparency="1.0" width="110" height="15" x="5" y="20"/>
+        <link>
+          <businessObjects href="vita49_loopback_demo.sad.xml#//@partitioning/@componentPlacement.0/@componentInstantiation.0/@uses.1"/>
+        </link>
+        <children xsi:type="pi:ContainerShape" visible="true" active="true">
+          <properties key="ShapeType" value="usesPortRectangleShape"/>
+          <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" transparency="0.0" width="15" height="15" x="95" style="//@styles.6">
+            <properties key="GAType" value="usesPortRectangle"/>
+          </graphicsAlgorithm>
+          <link>
+            <businessObjects href="vita49_loopback_demo.sad.xml#//@partitioning/@componentPlacement.0/@componentInstantiation.0/@uses.1"/>
+          </link>
+          <anchors xsi:type="pi:FixPointAnchor" visible="true" active="true" referencedGraphicsAlgorithm="//@children.0/@children.3/@children.1/@children.0/@graphicsAlgorithm" useAnchorLocationAsConnectionEndpoint="true">
+            <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" transparency="0.0" width="15" height="15" x="-15" y="-7" style="//@styles.6">
+              <properties key="GAType" value="GA_FIX_POINT_ANCHOR_RECTANGLE"/>
+            </graphicsAlgorithm>
+            <link>
+              <businessObjects href="vita49_loopback_demo.sad.xml#//@partitioning/@componentPlacement.0/@componentInstantiation.0/@uses.1"/>
+            </link>
+            <location x="15" y="7"/>
+          </anchors>
+        </children>
+        <children visible="true">
+          <graphicsAlgorithm xsi:type="al:Text" lineWidth="1" filled="false" transparency="0.0" width="90" height="20" style="//@styles.6" horizontalAlignment="ALIGNMENT_RIGHT" value="dataShort_out">
+            <properties key="GAType" value="GA_USES_PORT_TEXT"/>
+          </graphicsAlgorithm>
+        </children>
+      </children>
+    </children>
+  </children>
+  <children xsi:type="ext:ComponentShape" visible="true" active="true" connectionMap="ACED0005737200256A6176612E7574696C2E436F6C6C656374696F6E732453796E6368726F6E697A65644D61701B73F9094B4B397B0300024C00016D74000F4C6A6176612F7574696C2F4D61703B4C00056D757465787400124C6A6176612F6C616E672F4F626A6563743B7870737200116A6176612E7574696C2E486173684D61700507DAC1C31660D103000246000A6C6F6164466163746F724900097468726573686F6C6478703F40000000000010770800000010000000007871007E000378" hasPortsContainerShape="true">
+    <properties key="GAType" value="outerContainerShape"/>
+    <graphicsAlgorithm xsi:type="al:RoundedRectangle" lineWidth="1" transparency="0.5" width="242" height="190" x="314" y="12" style="//@styles.0" cornerHeight="5" cornerWidth="5">
+      <properties key="GAType" value="outerRoundedRectangle"/>
+      <graphicsAlgorithmChildren xsi:type="al:Image" lineWidth="1" transparency="0.0" width="16" height="16" x="20" id="gov.redhawk.ide.graphiti.sad.ui.diagram.providers.imageProvider.componentPlacement" stretchH="false" stretchV="false" proportional="false">
+        <properties key="GAType" value="outerRoundedRectangleImage"/>
+      </graphicsAlgorithmChildren>
+      <graphicsAlgorithmChildren xsi:type="al:Text" lineWidth="1" filled="false" transparency="0.0" width="202" height="20" x="40" style="//@styles.1" value="rh.SinkVITA49">
+        <properties key="GAType" value="outerRoundedRectangleText"/>
+      </graphicsAlgorithmChildren>
+    </graphicsAlgorithm>
+    <link>
+      <businessObjects href="vita49_loopback_demo.sad.xml#SinkVITA49_1"/>
+      <businessObjects href="vita49_loopback_demo.sad.xml#DCE:9db753ee-1a26-11e5-b8e7-3417ebc4aab5"/>
+    </link>
+    <children xsi:type="pi:ContainerShape" visible="true">
+      <properties key="GAType" value="innerContainerShape"/>
+      <graphicsAlgorithm xsi:type="al:RoundedRectangle" lineWidth="1" transparency="0.0" width="207" height="170" x="20" y="20" style="//@styles.2" cornerHeight="5" cornerWidth="5">
+        <properties key="GAType" value="innerRoundedRectangle"/>
+        <graphicsAlgorithmChildren xsi:type="al:Image" lineWidth="1" transparency="0.0" width="16" height="16" x="44" y="8" id="gov.redhawk.ide.graphiti.sad.ui.diagram.providers.imageProvider.componentInstance" stretchH="false" stretchV="false" proportional="false">
+          <properties key="GAType" value="innerRoundedRectangleImage"/>
+        </graphicsAlgorithmChildren>
+        <graphicsAlgorithmChildren xsi:type="al:Text" lineWidth="1" filled="false" transparency="0.0" width="107" height="18" x="65" y="8" style="//@styles.3" value="SinkVITA49_1">
+          <properties key="GAType" value="innerRoundedRectangleText"/>
+        </graphicsAlgorithmChildren>
+        <graphicsAlgorithmChildren xsi:type="al:Polyline" background="//@colors.2" foreground="//@colors.2" lineWidth="1" filled="false" transparency="0.0">
+          <properties key="GAType" value="innerRoundedRectangleLine"/>
+          <points y="28"/>
+          <points x="207" y="28"/>
+        </graphicsAlgorithmChildren>
+      </graphicsAlgorithm>
+      <children xsi:type="pi:ContainerShape" visible="true">
+        <properties key="ShapeType" value="startOrderEllipseShape"/>
+        <graphicsAlgorithm xsi:type="al:Ellipse" lineWidth="1" transparency="0.0" width="17" height="17" x="185" y="5" style="//@styles.12">
+          <properties key="GAType" value="startOrderEllipse"/>
+        </graphicsAlgorithm>
+        <children visible="true">
+          <graphicsAlgorithm xsi:type="al:Text" lineWidth="1" filled="false" transparency="0.0" width="17" height="17" x="5" style="//@styles.8" value="1">
+            <properties key="GAType" value="startOrderText"/>
+          </graphicsAlgorithm>
+        </children>
+      </children>
+    </children>
+    <children xsi:type="pi:ContainerShape" visible="true" active="true">
+      <properties key="GAType" value="interfaceContainerShape"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" transparency="0.99" width="20" height="10" y="25"/>
+      <link>
+        <businessObjects href="vita49_loopback_demo.sad.xml#//@partitioning/@componentPlacement.1/@componentInstantiation.0/@interfaceStub"/>
+      </link>
+      <anchors xsi:type="pi:FixPointAnchor" visible="true" active="true" referencedGraphicsAlgorithm="//@children.1/@children.1/@graphicsAlgorithm" useAnchorLocationAsConnectionEndpoint="true">
+        <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" transparency="0.99" width="20" height="10" y="-5"/>
+        <link>
+          <businessObjects href="vita49_loopback_demo.sad.xml#//@partitioning/@componentPlacement.1/@componentInstantiation.0/@interfaceStub"/>
+        </link>
+        <location y="7"/>
+      </anchors>
+      <children visible="true" active="true">
+        <properties key="GAType" value="interfaceEllipseShape"/>
+        <graphicsAlgorithm xsi:type="al:Ellipse" lineWidth="1" transparency="0.0" width="10" height="10" style="//@styles.4"/>
+      </children>
+      <children xsi:type="pi:ContainerShape" visible="true">
+        <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" transparency="0.0" width="10" height="1" x="10" y="5" style="//@styles.5"/>
+      </children>
+    </children>
+    <children xsi:type="pi:ContainerShape" visible="true" active="true">
+      <properties key="ShapeType" value="providesPortsContainerShape"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" transparency="1.0" width="102" height="120" x="5" y="60">
+        <properties key="GAType" value="providesPortsRectangle"/>
+      </graphicsAlgorithm>
+      <link>
+        <businessObjects href="vita49_loopback_demo.sad.xml#//@partitioning/@componentPlacement.1/@componentInstantiation.0/@provides.0"/>
+        <businessObjects href="vita49_loopback_demo.sad.xml#//@partitioning/@componentPlacement.1/@componentInstantiation.0/@provides.1"/>
+        <businessObjects href="vita49_loopback_demo.sad.xml#//@partitioning/@componentPlacement.1/@componentInstantiation.0/@provides.2"/>
+        <businessObjects href="vita49_loopback_demo.sad.xml#//@partitioning/@componentPlacement.1/@componentInstantiation.0/@provides.3"/>
+        <businessObjects href="vita49_loopback_demo.sad.xml#//@partitioning/@componentPlacement.1/@componentInstantiation.0/@provides.4"/>
+        <businessObjects href="vita49_loopback_demo.sad.xml#//@partitioning/@componentPlacement.1/@componentInstantiation.0/@provides.5"/>
+      </link>
+      <children xsi:type="pi:ContainerShape" visible="true" active="true">
+        <properties key="ShapeType" value="providesPortContainerShape"/>
+        <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" transparency="1.0" width="102" height="15"/>
+        <link>
+          <businessObjects href="vita49_loopback_demo.sad.xml#//@partitioning/@componentPlacement.1/@componentInstantiation.0/@provides.0"/>
+        </link>
+        <children xsi:type="pi:ContainerShape" visible="true" active="true">
+          <properties key="ShapeType" value="providesPortRectangleShape"/>
+          <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" transparency="0.0" width="15" height="15" style="//@styles.11"/>
+          <link>
+            <businessObjects href="vita49_loopback_demo.sad.xml#//@partitioning/@componentPlacement.1/@componentInstantiation.0/@provides.0"/>
+          </link>
+          <anchors xsi:type="pi:FixPointAnchor" visible="true" active="true" referencedGraphicsAlgorithm="//@children.1/@children.2/@children.0/@children.0/@graphicsAlgorithm" useAnchorLocationAsConnectionEndpoint="true">
+            <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" transparency="0.0" width="15" height="15" y="-7" style="//@styles.11">
+              <properties key="GAType" value="GA_FIX_POINT_ANCHOR_RECTANGLE"/>
+            </graphicsAlgorithm>
+            <link>
+              <businessObjects href="vita49_loopback_demo.sad.xml#//@partitioning/@componentPlacement.1/@componentInstantiation.0/@provides.0"/>
+            </link>
+            <location y="7"/>
+          </anchors>
+        </children>
+        <children visible="true">
+          <graphicsAlgorithm xsi:type="al:Text" lineWidth="1" filled="false" transparency="0.0" width="609" height="20" x="20" style="//@styles.11" value="dataShort_in">
+            <properties key="GAType" value="GA_PROVIDES_PORT_TEXT"/>
+          </graphicsAlgorithm>
+        </children>
+      </children>
+      <children xsi:type="pi:ContainerShape" visible="true" active="true">
+        <properties key="ShapeType" value="providesPortContainerShape"/>
+        <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" transparency="1.0" width="102" height="15" y="20"/>
+        <link>
+          <businessObjects href="vita49_loopback_demo.sad.xml#//@partitioning/@componentPlacement.1/@componentInstantiation.0/@provides.1"/>
+        </link>
+        <children xsi:type="pi:ContainerShape" visible="true" active="true">
+          <properties key="ShapeType" value="providesPortRectangleShape"/>
+          <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" transparency="0.0" width="15" height="15" style="//@styles.11"/>
+          <link>
+            <businessObjects href="vita49_loopback_demo.sad.xml#//@partitioning/@componentPlacement.1/@componentInstantiation.0/@provides.1"/>
+          </link>
+          <anchors xsi:type="pi:FixPointAnchor" visible="true" active="true" incomingConnections="//@connections.0" referencedGraphicsAlgorithm="//@children.1/@children.2/@children.1/@children.0/@graphicsAlgorithm" useAnchorLocationAsConnectionEndpoint="true">
+            <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" transparency="0.0" width="15" height="15" y="-7" style="//@styles.11">
+              <properties key="GAType" value="GA_FIX_POINT_ANCHOR_RECTANGLE"/>
+            </graphicsAlgorithm>
+            <link>
+              <businessObjects href="vita49_loopback_demo.sad.xml#//@partitioning/@componentPlacement.1/@componentInstantiation.0/@provides.1"/>
+            </link>
+            <location y="7"/>
+          </anchors>
+        </children>
+        <children visible="true">
+          <graphicsAlgorithm xsi:type="al:Text" lineWidth="1" filled="false" transparency="0.0" width="609" height="20" x="20" style="//@styles.11" value="dataFloat_in">
+            <properties key="GAType" value="GA_PROVIDES_PORT_TEXT"/>
+          </graphicsAlgorithm>
+        </children>
+      </children>
+      <children xsi:type="pi:ContainerShape" visible="true" active="true">
+        <properties key="ShapeType" value="providesPortContainerShape"/>
+        <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" transparency="1.0" width="102" height="15" y="40"/>
+        <link>
+          <businessObjects href="vita49_loopback_demo.sad.xml#//@partitioning/@componentPlacement.1/@componentInstantiation.0/@provides.2"/>
+        </link>
+        <children xsi:type="pi:ContainerShape" visible="true" active="true">
+          <properties key="ShapeType" value="providesPortRectangleShape"/>
+          <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" transparency="0.0" width="15" height="15" style="//@styles.11"/>
+          <link>
+            <businessObjects href="vita49_loopback_demo.sad.xml#//@partitioning/@componentPlacement.1/@componentInstantiation.0/@provides.2"/>
+          </link>
+          <anchors xsi:type="pi:FixPointAnchor" visible="true" active="true" referencedGraphicsAlgorithm="//@children.1/@children.2/@children.2/@children.0/@graphicsAlgorithm" useAnchorLocationAsConnectionEndpoint="true">
+            <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" transparency="0.0" width="15" height="15" y="-7" style="//@styles.11">
+              <properties key="GAType" value="GA_FIX_POINT_ANCHOR_RECTANGLE"/>
+            </graphicsAlgorithm>
+            <link>
+              <businessObjects href="vita49_loopback_demo.sad.xml#//@partitioning/@componentPlacement.1/@componentInstantiation.0/@provides.2"/>
+            </link>
+            <location y="7"/>
+          </anchors>
+        </children>
+        <children visible="true">
+          <graphicsAlgorithm xsi:type="al:Text" lineWidth="1" filled="false" transparency="0.0" width="609" height="20" x="20" style="//@styles.11" value="dataChar_in">
+            <properties key="GAType" value="GA_PROVIDES_PORT_TEXT"/>
+          </graphicsAlgorithm>
+        </children>
+      </children>
+      <children xsi:type="pi:ContainerShape" visible="true" active="true">
+        <properties key="ShapeType" value="providesPortContainerShape"/>
+        <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" transparency="1.0" width="102" height="15" y="60"/>
+        <link>
+          <businessObjects href="vita49_loopback_demo.sad.xml#//@partitioning/@componentPlacement.1/@componentInstantiation.0/@provides.3"/>
+        </link>
+        <children xsi:type="pi:ContainerShape" visible="true" active="true">
+          <properties key="ShapeType" value="providesPortRectangleShape"/>
+          <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" transparency="0.0" width="15" height="15" style="//@styles.11"/>
+          <link>
+            <businessObjects href="vita49_loopback_demo.sad.xml#//@partitioning/@componentPlacement.1/@componentInstantiation.0/@provides.3"/>
+          </link>
+          <anchors xsi:type="pi:FixPointAnchor" visible="true" active="true" referencedGraphicsAlgorithm="//@children.1/@children.2/@children.3/@children.0/@graphicsAlgorithm" useAnchorLocationAsConnectionEndpoint="true">
+            <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" transparency="0.0" width="15" height="15" y="-7" style="//@styles.11">
+              <properties key="GAType" value="GA_FIX_POINT_ANCHOR_RECTANGLE"/>
+            </graphicsAlgorithm>
+            <link>
+              <businessObjects href="vita49_loopback_demo.sad.xml#//@partitioning/@componentPlacement.1/@componentInstantiation.0/@provides.3"/>
+            </link>
+            <location y="7"/>
+          </anchors>
+        </children>
+        <children visible="true">
+          <graphicsAlgorithm xsi:type="al:Text" lineWidth="1" filled="false" transparency="0.0" width="609" height="20" x="20" style="//@styles.11" value="dataDouble_in">
+            <properties key="GAType" value="GA_PROVIDES_PORT_TEXT"/>
+          </graphicsAlgorithm>
+        </children>
+      </children>
+      <children xsi:type="pi:ContainerShape" visible="true" active="true">
+        <properties key="ShapeType" value="providesPortContainerShape"/>
+        <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" transparency="1.0" width="102" height="15" y="80"/>
+        <link>
+          <businessObjects href="vita49_loopback_demo.sad.xml#//@partitioning/@componentPlacement.1/@componentInstantiation.0/@provides.4"/>
+        </link>
+        <children xsi:type="pi:ContainerShape" visible="true" active="true">
+          <properties key="ShapeType" value="providesPortRectangleShape"/>
+          <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" transparency="0.0" width="15" height="15" style="//@styles.11"/>
+          <link>
+            <businessObjects href="vita49_loopback_demo.sad.xml#//@partitioning/@componentPlacement.1/@componentInstantiation.0/@provides.4"/>
+          </link>
+          <anchors xsi:type="pi:FixPointAnchor" visible="true" active="true" referencedGraphicsAlgorithm="//@children.1/@children.2/@children.4/@children.0/@graphicsAlgorithm" useAnchorLocationAsConnectionEndpoint="true">
+            <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" transparency="0.0" width="15" height="15" y="-7" style="//@styles.11">
+              <properties key="GAType" value="GA_FIX_POINT_ANCHOR_RECTANGLE"/>
+            </graphicsAlgorithm>
+            <link>
+              <businessObjects href="vita49_loopback_demo.sad.xml#//@partitioning/@componentPlacement.1/@componentInstantiation.0/@provides.4"/>
+            </link>
+            <location y="7"/>
+          </anchors>
+        </children>
+        <children visible="true">
+          <graphicsAlgorithm xsi:type="al:Text" lineWidth="1" filled="false" transparency="0.0" width="609" height="20" x="20" style="//@styles.11" value="dataOctet_in">
+            <properties key="GAType" value="GA_PROVIDES_PORT_TEXT"/>
+          </graphicsAlgorithm>
+        </children>
+      </children>
+      <children xsi:type="pi:ContainerShape" visible="true" active="true">
+        <properties key="ShapeType" value="providesPortContainerShape"/>
+        <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" transparency="1.0" width="102" height="15" y="100"/>
+        <link>
+          <businessObjects href="vita49_loopback_demo.sad.xml#//@partitioning/@componentPlacement.1/@componentInstantiation.0/@provides.5"/>
+        </link>
+        <children xsi:type="pi:ContainerShape" visible="true" active="true">
+          <properties key="ShapeType" value="providesPortRectangleShape"/>
+          <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" transparency="0.0" width="15" height="15" style="//@styles.11"/>
+          <link>
+            <businessObjects href="vita49_loopback_demo.sad.xml#//@partitioning/@componentPlacement.1/@componentInstantiation.0/@provides.5"/>
+          </link>
+          <anchors xsi:type="pi:FixPointAnchor" visible="true" active="true" referencedGraphicsAlgorithm="//@children.1/@children.2/@children.5/@children.0/@graphicsAlgorithm" useAnchorLocationAsConnectionEndpoint="true">
+            <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" transparency="0.0" width="15" height="15" y="-7" style="//@styles.11">
+              <properties key="GAType" value="GA_FIX_POINT_ANCHOR_RECTANGLE"/>
+            </graphicsAlgorithm>
+            <link>
+              <businessObjects href="vita49_loopback_demo.sad.xml#//@partitioning/@componentPlacement.1/@componentInstantiation.0/@provides.5"/>
+            </link>
+            <location y="7"/>
+          </anchors>
+        </children>
+        <children visible="true">
+          <graphicsAlgorithm xsi:type="al:Text" lineWidth="1" filled="false" transparency="0.0" width="609" height="20" x="20" style="//@styles.11" value="dataUshort_in">
+            <properties key="GAType" value="GA_PROVIDES_PORT_TEXT"/>
+          </graphicsAlgorithm>
+        </children>
+      </children>
+    </children>
+    <children xsi:type="pi:ContainerShape" visible="true" active="true">
+      <properties key="ShapeType" value="usesPortsContainerShape"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" transparency="1.0" width="125" height="20" x="117" y="60">
+        <properties key="GAType" value="usesPortsRectangle"/>
+      </graphicsAlgorithm>
+      <link>
+        <businessObjects href="vita49_loopback_demo.sad.xml#//@partitioning/@componentPlacement.1/@componentInstantiation.0/@uses.0"/>
+      </link>
+      <children xsi:type="pi:ContainerShape" visible="true" active="true">
+        <properties key="ShapeType" value="usesPortContainerShape"/>
+        <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" transparency="1.0" width="120" height="15" x="5"/>
+        <link>
+          <businessObjects href="vita49_loopback_demo.sad.xml#//@partitioning/@componentPlacement.1/@componentInstantiation.0/@uses.0"/>
+        </link>
+        <children xsi:type="pi:ContainerShape" visible="true" active="true">
+          <properties key="ShapeType" value="usesPortRectangleShape"/>
+          <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" transparency="0.0" width="15" height="15" x="105" style="//@styles.6">
+            <properties key="GAType" value="usesPortRectangle"/>
+          </graphicsAlgorithm>
+          <link>
+            <businessObjects href="vita49_loopback_demo.sad.xml#//@partitioning/@componentPlacement.1/@componentInstantiation.0/@uses.0"/>
+          </link>
+          <anchors xsi:type="pi:FixPointAnchor" visible="true" active="true" outgoingConnections="//@connections.1" referencedGraphicsAlgorithm="//@children.1/@children.3/@children.0/@children.0/@graphicsAlgorithm" useAnchorLocationAsConnectionEndpoint="true">
+            <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" transparency="0.0" width="15" height="15" x="-15" y="-7" style="//@styles.6">
+              <properties key="GAType" value="GA_FIX_POINT_ANCHOR_RECTANGLE"/>
+            </graphicsAlgorithm>
+            <link>
+              <businessObjects href="vita49_loopback_demo.sad.xml#//@partitioning/@componentPlacement.1/@componentInstantiation.0/@uses.0"/>
+            </link>
+            <location x="15" y="7"/>
+          </anchors>
+        </children>
+        <children visible="true">
+          <graphicsAlgorithm xsi:type="al:Text" lineWidth="1" filled="false" transparency="0.0" width="100" height="20" style="//@styles.6" horizontalAlignment="ALIGNMENT_RIGHT" value="dataVITA49_out">
+            <properties key="GAType" value="GA_USES_PORT_TEXT"/>
+          </graphicsAlgorithm>
+        </children>
+      </children>
+    </children>
+  </children>
+  <children xsi:type="ext:ComponentShape" visible="true" active="true" connectionMap="ACED0005737200256A6176612E7574696C2E436F6C6C656374696F6E732453796E6368726F6E697A65644D61701B73F9094B4B397B0300024C00016D74000F4C6A6176612F7574696C2F4D61703B4C00056D757465787400124C6A6176612F6C616E672F4F626A6563743B7870737200116A6176612E7574696C2E486173684D61700507DAC1C31660D103000246000A6C6F6164466163746F724900097468726573686F6C6478703F40000000000010770800000010000000007871007E000378" hasPortsContainerShape="true">
+    <properties key="GAType" value="outerContainerShape"/>
+    <graphicsAlgorithm xsi:type="al:RoundedRectangle" lineWidth="1" transparency="0.5" width="239" height="190" x="616" y="12" style="//@styles.0" cornerHeight="5" cornerWidth="5">
+      <properties key="GAType" value="outerRoundedRectangle"/>
+      <graphicsAlgorithmChildren xsi:type="al:Image" lineWidth="1" transparency="0.0" width="16" height="16" x="20" id="gov.redhawk.ide.graphiti.sad.ui.diagram.providers.imageProvider.componentPlacement" stretchH="false" stretchV="false" proportional="false">
+        <properties key="GAType" value="outerRoundedRectangleImage"/>
+      </graphicsAlgorithmChildren>
+      <graphicsAlgorithmChildren xsi:type="al:Text" lineWidth="1" filled="false" transparency="0.0" width="199" height="20" x="40" style="//@styles.1" value="rh.SourceVITA49">
+        <properties key="GAType" value="outerRoundedRectangleText"/>
+      </graphicsAlgorithmChildren>
+    </graphicsAlgorithm>
+    <link>
+      <businessObjects href="vita49_loopback_demo.sad.xml#SourceVITA49_1"/>
+      <businessObjects href="vita49_loopback_demo.sad.xml#DCE:9db753ee-1a26-11e5-b8e7-3417ebc4aab5"/>
+    </link>
+    <children xsi:type="pi:ContainerShape" visible="true">
+      <properties key="GAType" value="innerContainerShape"/>
+      <graphicsAlgorithm xsi:type="al:RoundedRectangle" lineWidth="1" transparency="0.0" width="204" height="170" x="20" y="20" style="//@styles.2" cornerHeight="5" cornerWidth="5">
+        <properties key="GAType" value="innerRoundedRectangle"/>
+        <graphicsAlgorithmChildren xsi:type="al:Image" lineWidth="1" transparency="0.0" width="16" height="16" x="33" y="8" id="gov.redhawk.ide.graphiti.sad.ui.diagram.providers.imageProvider.componentInstance" stretchH="false" stretchV="false" proportional="false">
+          <properties key="GAType" value="innerRoundedRectangleImage"/>
+        </graphicsAlgorithmChildren>
+        <graphicsAlgorithmChildren xsi:type="al:Text" lineWidth="1" filled="false" transparency="0.0" width="126" height="18" x="54" y="8" style="//@styles.3" value="SourceVITA49_1">
+          <properties key="GAType" value="innerRoundedRectangleText"/>
+        </graphicsAlgorithmChildren>
+        <graphicsAlgorithmChildren xsi:type="al:Polyline" background="//@colors.2" foreground="//@colors.2" lineWidth="1" filled="false" transparency="0.0">
+          <properties key="GAType" value="innerRoundedRectangleLine"/>
+          <points y="28"/>
+          <points x="204" y="28"/>
+        </graphicsAlgorithmChildren>
+      </graphicsAlgorithm>
+      <children xsi:type="pi:ContainerShape" visible="true">
+        <properties key="ShapeType" value="startOrderEllipseShape"/>
+        <graphicsAlgorithm xsi:type="al:Ellipse" lineWidth="1" transparency="0.0" width="17" height="17" x="182" y="5" style="//@styles.12">
+          <properties key="GAType" value="startOrderEllipse"/>
+        </graphicsAlgorithm>
+        <children visible="true">
+          <graphicsAlgorithm xsi:type="al:Text" lineWidth="1" filled="false" transparency="0.0" width="17" height="17" x="5" style="//@styles.8" value="2">
+            <properties key="GAType" value="startOrderText"/>
+          </graphicsAlgorithm>
+        </children>
+      </children>
+    </children>
+    <children xsi:type="pi:ContainerShape" visible="true" active="true">
+      <properties key="GAType" value="interfaceContainerShape"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" transparency="0.99" width="20" height="10" y="25"/>
+      <link>
+        <businessObjects href="vita49_loopback_demo.sad.xml#//@partitioning/@componentPlacement.2/@componentInstantiation.0/@interfaceStub"/>
+      </link>
+      <anchors xsi:type="pi:FixPointAnchor" visible="true" active="true" referencedGraphicsAlgorithm="//@children.2/@children.1/@graphicsAlgorithm" useAnchorLocationAsConnectionEndpoint="true">
+        <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" transparency="0.99" width="20" height="10" y="-5"/>
+        <link>
+          <businessObjects href="vita49_loopback_demo.sad.xml#//@partitioning/@componentPlacement.2/@componentInstantiation.0/@interfaceStub"/>
+        </link>
+        <location y="7"/>
+      </anchors>
+      <children visible="true" active="true">
+        <properties key="GAType" value="interfaceEllipseShape"/>
+        <graphicsAlgorithm xsi:type="al:Ellipse" lineWidth="1" transparency="0.0" width="10" height="10" style="//@styles.4"/>
+      </children>
+      <children xsi:type="pi:ContainerShape" visible="true">
+        <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" transparency="0.0" width="10" height="1" x="10" y="5" style="//@styles.5"/>
+      </children>
+    </children>
+    <children xsi:type="pi:ContainerShape" visible="true" active="true">
+      <properties key="ShapeType" value="providesPortsContainerShape"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" transparency="1.0" width="100" height="20" x="5" y="60">
+        <properties key="GAType" value="providesPortsRectangle"/>
+      </graphicsAlgorithm>
+      <link>
+        <businessObjects href="vita49_loopback_demo.sad.xml#//@partitioning/@componentPlacement.2/@componentInstantiation.0/@provides.0"/>
+      </link>
+      <children xsi:type="pi:ContainerShape" visible="true" active="true">
+        <properties key="ShapeType" value="providesPortContainerShape"/>
+        <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" transparency="1.0" width="100" height="15"/>
+        <link>
+          <businessObjects href="vita49_loopback_demo.sad.xml#//@partitioning/@componentPlacement.2/@componentInstantiation.0/@provides.0"/>
+        </link>
+        <children xsi:type="pi:ContainerShape" visible="true" active="true">
+          <properties key="ShapeType" value="providesPortRectangleShape"/>
+          <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" transparency="0.0" width="15" height="15" style="//@styles.11"/>
+          <link>
+            <businessObjects href="vita49_loopback_demo.sad.xml#//@partitioning/@componentPlacement.2/@componentInstantiation.0/@provides.0"/>
+          </link>
+          <anchors xsi:type="pi:FixPointAnchor" visible="true" active="true" incomingConnections="//@connections.1" referencedGraphicsAlgorithm="//@children.2/@children.2/@children.0/@children.0/@graphicsAlgorithm" useAnchorLocationAsConnectionEndpoint="true">
+            <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" transparency="0.0" width="15" height="15" y="-7" style="//@styles.11">
+              <properties key="GAType" value="GA_FIX_POINT_ANCHOR_RECTANGLE"/>
+            </graphicsAlgorithm>
+            <link>
+              <businessObjects href="vita49_loopback_demo.sad.xml#//@partitioning/@componentPlacement.2/@componentInstantiation.0/@provides.0"/>
+            </link>
+            <location y="7"/>
+          </anchors>
+        </children>
+        <children visible="true">
+          <graphicsAlgorithm xsi:type="al:Text" lineWidth="1" filled="false" transparency="0.0" width="595" height="20" x="20" style="//@styles.11" value="dataVITA49_in">
+            <properties key="GAType" value="GA_PROVIDES_PORT_TEXT"/>
+          </graphicsAlgorithm>
+        </children>
+      </children>
+    </children>
+    <children xsi:type="pi:ContainerShape" visible="true" active="true">
+      <properties key="ShapeType" value="usesPortsContainerShape"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" transparency="1.0" width="124" height="120" x="115" y="60">
+        <properties key="GAType" value="usesPortsRectangle"/>
+      </graphicsAlgorithm>
+      <link>
+        <businessObjects href="vita49_loopback_demo.sad.xml#//@partitioning/@componentPlacement.2/@componentInstantiation.0/@uses.0"/>
+        <businessObjects href="vita49_loopback_demo.sad.xml#//@partitioning/@componentPlacement.2/@componentInstantiation.0/@uses.1"/>
+        <businessObjects href="vita49_loopback_demo.sad.xml#//@partitioning/@componentPlacement.2/@componentInstantiation.0/@uses.2"/>
+        <businessObjects href="vita49_loopback_demo.sad.xml#//@partitioning/@componentPlacement.2/@componentInstantiation.0/@uses.3"/>
+        <businessObjects href="vita49_loopback_demo.sad.xml#//@partitioning/@componentPlacement.2/@componentInstantiation.0/@uses.4"/>
+        <businessObjects href="vita49_loopback_demo.sad.xml#//@partitioning/@componentPlacement.2/@componentInstantiation.0/@uses.5"/>
+      </link>
+      <children xsi:type="pi:ContainerShape" visible="true" active="true">
+        <properties key="ShapeType" value="usesPortContainerShape"/>
+        <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" transparency="1.0" width="119" height="15" x="5"/>
+        <link>
+          <businessObjects href="vita49_loopback_demo.sad.xml#//@partitioning/@componentPlacement.2/@componentInstantiation.0/@uses.0"/>
+        </link>
+        <children xsi:type="pi:ContainerShape" visible="true" active="true">
+          <properties key="ShapeType" value="usesPortRectangleShape"/>
+          <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" transparency="0.0" width="15" height="15" x="104" style="//@styles.6">
+            <properties key="GAType" value="usesPortRectangle"/>
+          </graphicsAlgorithm>
+          <link>
+            <businessObjects href="vita49_loopback_demo.sad.xml#//@partitioning/@componentPlacement.2/@componentInstantiation.0/@uses.0"/>
+          </link>
+          <anchors xsi:type="pi:FixPointAnchor" visible="true" active="true" referencedGraphicsAlgorithm="//@children.2/@children.3/@children.0/@children.0/@graphicsAlgorithm" useAnchorLocationAsConnectionEndpoint="true">
+            <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" transparency="0.0" width="15" height="15" x="-15" y="-7" style="//@styles.6">
+              <properties key="GAType" value="GA_FIX_POINT_ANCHOR_RECTANGLE"/>
+            </graphicsAlgorithm>
+            <link>
+              <businessObjects href="vita49_loopback_demo.sad.xml#//@partitioning/@componentPlacement.2/@componentInstantiation.0/@uses.0"/>
+            </link>
+            <location x="15" y="7"/>
+          </anchors>
+        </children>
+        <children visible="true">
+          <graphicsAlgorithm xsi:type="al:Text" lineWidth="1" filled="false" transparency="0.0" width="99" height="20" style="//@styles.6" horizontalAlignment="ALIGNMENT_RIGHT" value="dataChar_out">
+            <properties key="GAType" value="GA_USES_PORT_TEXT"/>
+          </graphicsAlgorithm>
+        </children>
+      </children>
+      <children xsi:type="pi:ContainerShape" visible="true" active="true">
+        <properties key="ShapeType" value="usesPortContainerShape"/>
+        <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" transparency="1.0" width="119" height="15" x="5" y="20"/>
+        <link>
+          <businessObjects href="vita49_loopback_demo.sad.xml#//@partitioning/@componentPlacement.2/@componentInstantiation.0/@uses.1"/>
+        </link>
+        <children xsi:type="pi:ContainerShape" visible="true" active="true">
+          <properties key="ShapeType" value="usesPortRectangleShape"/>
+          <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" transparency="0.0" width="15" height="15" x="104" style="//@styles.6">
+            <properties key="GAType" value="usesPortRectangle"/>
+          </graphicsAlgorithm>
+          <link>
+            <businessObjects href="vita49_loopback_demo.sad.xml#//@partitioning/@componentPlacement.2/@componentInstantiation.0/@uses.1"/>
+          </link>
+          <anchors xsi:type="pi:FixPointAnchor" visible="true" active="true" referencedGraphicsAlgorithm="//@children.2/@children.3/@children.1/@children.0/@graphicsAlgorithm" useAnchorLocationAsConnectionEndpoint="true">
+            <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" transparency="0.0" width="15" height="15" x="-15" y="-7" style="//@styles.6">
+              <properties key="GAType" value="GA_FIX_POINT_ANCHOR_RECTANGLE"/>
+            </graphicsAlgorithm>
+            <link>
+              <businessObjects href="vita49_loopback_demo.sad.xml#//@partitioning/@componentPlacement.2/@componentInstantiation.0/@uses.1"/>
+            </link>
+            <location x="15" y="7"/>
+          </anchors>
+        </children>
+        <children visible="true">
+          <graphicsAlgorithm xsi:type="al:Text" lineWidth="1" filled="false" transparency="0.0" width="99" height="20" style="//@styles.6" horizontalAlignment="ALIGNMENT_RIGHT" value="dataOctet_out">
+            <properties key="GAType" value="GA_USES_PORT_TEXT"/>
+          </graphicsAlgorithm>
+        </children>
+      </children>
+      <children xsi:type="pi:ContainerShape" visible="true" active="true">
+        <properties key="ShapeType" value="usesPortContainerShape"/>
+        <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" transparency="1.0" width="119" height="15" x="5" y="40"/>
+        <link>
+          <businessObjects href="vita49_loopback_demo.sad.xml#//@partitioning/@componentPlacement.2/@componentInstantiation.0/@uses.2"/>
+        </link>
+        <children xsi:type="pi:ContainerShape" visible="true" active="true">
+          <properties key="ShapeType" value="usesPortRectangleShape"/>
+          <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" transparency="0.0" width="15" height="15" x="104" style="//@styles.6">
+            <properties key="GAType" value="usesPortRectangle"/>
+          </graphicsAlgorithm>
+          <link>
+            <businessObjects href="vita49_loopback_demo.sad.xml#//@partitioning/@componentPlacement.2/@componentInstantiation.0/@uses.2"/>
+          </link>
+          <anchors xsi:type="pi:FixPointAnchor" visible="true" active="true" referencedGraphicsAlgorithm="//@children.2/@children.3/@children.2/@children.0/@graphicsAlgorithm" useAnchorLocationAsConnectionEndpoint="true">
+            <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" transparency="0.0" width="15" height="15" x="-15" y="-7" style="//@styles.6">
+              <properties key="GAType" value="GA_FIX_POINT_ANCHOR_RECTANGLE"/>
+            </graphicsAlgorithm>
+            <link>
+              <businessObjects href="vita49_loopback_demo.sad.xml#//@partitioning/@componentPlacement.2/@componentInstantiation.0/@uses.2"/>
+            </link>
+            <location x="15" y="7"/>
+          </anchors>
+        </children>
+        <children visible="true">
+          <graphicsAlgorithm xsi:type="al:Text" lineWidth="1" filled="false" transparency="0.0" width="99" height="20" style="//@styles.6" horizontalAlignment="ALIGNMENT_RIGHT" value="dataShort_out">
+            <properties key="GAType" value="GA_USES_PORT_TEXT"/>
+          </graphicsAlgorithm>
+        </children>
+      </children>
+      <children xsi:type="pi:ContainerShape" visible="true" active="true">
+        <properties key="ShapeType" value="usesPortContainerShape"/>
+        <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" transparency="1.0" width="119" height="15" x="5" y="60"/>
+        <link>
+          <businessObjects href="vita49_loopback_demo.sad.xml#//@partitioning/@componentPlacement.2/@componentInstantiation.0/@uses.3"/>
+        </link>
+        <children xsi:type="pi:ContainerShape" visible="true" active="true">
+          <properties key="ShapeType" value="usesPortRectangleShape"/>
+          <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" transparency="0.0" width="15" height="15" x="104" style="//@styles.6">
+            <properties key="GAType" value="usesPortRectangle"/>
+          </graphicsAlgorithm>
+          <link>
+            <businessObjects href="vita49_loopback_demo.sad.xml#//@partitioning/@componentPlacement.2/@componentInstantiation.0/@uses.3"/>
+          </link>
+          <anchors xsi:type="pi:FixPointAnchor" visible="true" active="true" referencedGraphicsAlgorithm="//@children.2/@children.3/@children.3/@children.0/@graphicsAlgorithm" useAnchorLocationAsConnectionEndpoint="true">
+            <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" transparency="0.0" width="15" height="15" x="-15" y="-7" style="//@styles.6">
+              <properties key="GAType" value="GA_FIX_POINT_ANCHOR_RECTANGLE"/>
+            </graphicsAlgorithm>
+            <link>
+              <businessObjects href="vita49_loopback_demo.sad.xml#//@partitioning/@componentPlacement.2/@componentInstantiation.0/@uses.3"/>
+            </link>
+            <location x="15" y="7"/>
+          </anchors>
+        </children>
+        <children visible="true">
+          <graphicsAlgorithm xsi:type="al:Text" lineWidth="1" filled="false" transparency="0.0" width="99" height="20" style="//@styles.6" horizontalAlignment="ALIGNMENT_RIGHT" value="dataUshort_out">
+            <properties key="GAType" value="GA_USES_PORT_TEXT"/>
+          </graphicsAlgorithm>
+        </children>
+      </children>
+      <children xsi:type="pi:ContainerShape" visible="true" active="true">
+        <properties key="ShapeType" value="usesPortContainerShape"/>
+        <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" transparency="1.0" width="119" height="15" x="5" y="80"/>
+        <link>
+          <businessObjects href="vita49_loopback_demo.sad.xml#//@partitioning/@componentPlacement.2/@componentInstantiation.0/@uses.4"/>
+        </link>
+        <children xsi:type="pi:ContainerShape" visible="true" active="true">
+          <properties key="ShapeType" value="usesPortRectangleShape"/>
+          <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" transparency="0.0" width="15" height="15" x="104" style="//@styles.6">
+            <properties key="GAType" value="usesPortRectangle"/>
+          </graphicsAlgorithm>
+          <link>
+            <businessObjects href="vita49_loopback_demo.sad.xml#//@partitioning/@componentPlacement.2/@componentInstantiation.0/@uses.4"/>
+          </link>
+          <anchors xsi:type="pi:FixPointAnchor" visible="true" active="true" referencedGraphicsAlgorithm="//@children.2/@children.3/@children.4/@children.0/@graphicsAlgorithm" useAnchorLocationAsConnectionEndpoint="true">
+            <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" transparency="0.0" width="15" height="15" x="-15" y="-7" style="//@styles.6">
+              <properties key="GAType" value="GA_FIX_POINT_ANCHOR_RECTANGLE"/>
+            </graphicsAlgorithm>
+            <link>
+              <businessObjects href="vita49_loopback_demo.sad.xml#//@partitioning/@componentPlacement.2/@componentInstantiation.0/@uses.4"/>
+            </link>
+            <location x="15" y="7"/>
+          </anchors>
+        </children>
+        <children visible="true">
+          <graphicsAlgorithm xsi:type="al:Text" lineWidth="1" filled="false" transparency="0.0" width="99" height="20" style="//@styles.6" horizontalAlignment="ALIGNMENT_RIGHT" value="dataFloat_out">
+            <properties key="GAType" value="GA_USES_PORT_TEXT"/>
+          </graphicsAlgorithm>
+        </children>
+      </children>
+      <children xsi:type="pi:ContainerShape" visible="true" active="true">
+        <properties key="ShapeType" value="usesPortContainerShape"/>
+        <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" transparency="1.0" width="119" height="15" x="5" y="100"/>
+        <link>
+          <businessObjects href="vita49_loopback_demo.sad.xml#//@partitioning/@componentPlacement.2/@componentInstantiation.0/@uses.5"/>
+        </link>
+        <children xsi:type="pi:ContainerShape" visible="true" active="true">
+          <properties key="ShapeType" value="usesPortRectangleShape"/>
+          <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" transparency="0.0" width="15" height="15" x="104" style="//@styles.6">
+            <properties key="GAType" value="usesPortRectangle"/>
+          </graphicsAlgorithm>
+          <link>
+            <businessObjects href="vita49_loopback_demo.sad.xml#//@partitioning/@componentPlacement.2/@componentInstantiation.0/@uses.5"/>
+          </link>
+          <anchors xsi:type="pi:FixPointAnchor" visible="true" active="true" referencedGraphicsAlgorithm="//@children.2/@children.3/@children.5/@children.0/@graphicsAlgorithm" useAnchorLocationAsConnectionEndpoint="true">
+            <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" transparency="0.0" width="15" height="15" x="-15" y="-7" style="//@styles.6">
+              <properties key="GAType" value="GA_FIX_POINT_ANCHOR_RECTANGLE"/>
+            </graphicsAlgorithm>
+            <link>
+              <businessObjects href="vita49_loopback_demo.sad.xml#//@partitioning/@componentPlacement.2/@componentInstantiation.0/@uses.5"/>
+            </link>
+            <location x="15" y="7"/>
+          </anchors>
+        </children>
+        <children visible="true">
+          <graphicsAlgorithm xsi:type="al:Text" lineWidth="1" filled="false" transparency="0.0" width="99" height="20" style="//@styles.6" horizontalAlignment="ALIGNMENT_RIGHT" value="dataDouble_out">
+            <properties key="GAType" value="GA_USES_PORT_TEXT"/>
+          </graphicsAlgorithm>
+        </children>
+      </children>
+    </children>
+  </children>
+  <styles background="//@colors.3" foreground="//@colors.2" lineWidth="0" lineVisible="false" id="gov.redhawk.style.ComponentOuter" font="//@fonts.0"/>
+  <styles foreground="//@colors.2" lineWidth="2" id="gov.redhawk.style.OuterText" font="//@fonts.1"/>
+  <styles lineWidth="2" id="gov.redhawk.style.ComponentInner">
+    <renderingStyle>
+      <adaptedGradientColoredAreas definedStyleId="blue-white" gradientType="0">
+        <adaptedGradientColoredAreas styleAdaption="0">
+          <gradientColor>
+            <start locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="0">
+              <color red="212" green="231" blue="248"/>
+            </start>
+            <end locationType="LOCATION_TYPE_ABSOLUTE_END" locationValue="0">
+              <color red="250" green="251" blue="252"/>
+            </end>
+          </gradientColor>
+        </adaptedGradientColoredAreas>
+        <adaptedGradientColoredAreas styleAdaption="1">
+          <gradientColor>
+            <start locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="0">
+              <color red="129" green="185" blue="234"/>
+            </start>
+            <end locationType="LOCATION_TYPE_ABSOLUTE_END" locationValue="0">
+              <color red="170" green="208" blue="242"/>
+            </end>
+          </gradientColor>
+        </adaptedGradientColoredAreas>
+        <adaptedGradientColoredAreas styleAdaption="2">
+          <gradientColor>
+            <start locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="0">
+              <color red="187" green="218" blue="247"/>
+            </start>
+            <end locationType="LOCATION_TYPE_ABSOLUTE_END" locationValue="0">
+              <color red="197" green="224" blue="247"/>
+            </end>
+          </gradientColor>
+        </adaptedGradientColoredAreas>
+      </adaptedGradientColoredAreas>
+    </renderingStyle>
+  </styles>
+  <styles foreground="//@colors.2" lineWidth="2" id="gov.redhawk.style.InnerText" font="//@fonts.2"/>
+  <styles background="//@colors.1" lineWidth="1" transparency="0.99" id="gov.redhawk.style.LollipopEllipse"/>
+  <styles background="//@colors.2" id="gov.redhawk.style.LollipopLine"/>
+  <styles background="//@colors.2" foreground="//@colors.2" lineWidth="2" lineVisible="true" id="gov.redhawk.style.UsesPort" font="//@fonts.0"/>
+  <styles background="//@colors.4" lineWidth="1" transparency="0.99" id="gov.redhawk.style.StartOrderAssemblyControllerEllipse"/>
+  <styles background="//@colors.1" foreground="//@colors.2" id="gov.redhawk.style.StartOrderText" font="//@fonts.0"/>
+  <styles background="//@colors.5" foreground="//@colors.2" lineWidth="2" lineVisible="true" id="gov.redhawk.style.UsesExternalPort" font="//@fonts.0"/>
+  <styles background="//@colors.5" foreground="//@colors.2" lineWidth="2" lineVisible="true" id="gov.redhawk.style.ExternalProvidesPort" font="//@fonts.0"/>
+  <styles background="//@colors.1" foreground="//@colors.2" lineWidth="2" lineVisible="true" id="gov.redhawk.style.ProvidesPort" font="//@fonts.0"/>
+  <styles background="//@colors.1" lineWidth="1" transparency="0.99" id="gov.redhawk.style.StartOrderEllipse"/>
+  <connections xsi:type="pi:FreeFormConnection" visible="true" active="true" start="//@children.0/@children.3/@children.0/@children.0/@anchors.0" end="//@children.1/@children.2/@children.1/@children.0/@anchors.0">
+    <graphicsAlgorithm xsi:type="al:Polyline" foreground="//@colors.2" lineWidth="2" filled="false" transparency="0.0"/>
+    <link>
+      <businessObjects href="vita49_loopback_demo.sad.xml#connection_1"/>
+      <businessObjects href="vita49_loopback_demo.sad.xml#//@partitioning/@componentPlacement.0/@componentInstantiation.0/@uses.0"/>
+      <businessObjects href="vita49_loopback_demo.sad.xml#//@partitioning/@componentPlacement.1/@componentInstantiation.0/@provides.1"/>
+    </link>
+    <connectionDecorators visible="true" locationRelative="true" location="1.0">
+      <graphicsAlgorithm xsi:type="al:Polyline" foreground="//@colors.2" lineWidth="2" filled="false" transparency="0.0">
+        <points x="-15" y="10"/>
+        <points/>
+        <points x="-15" y="-10"/>
+      </graphicsAlgorithm>
+    </connectionDecorators>
+  </connections>
+  <connections xsi:type="pi:FreeFormConnection" visible="true" active="true" start="//@children.1/@children.3/@children.0/@children.0/@anchors.0" end="//@children.2/@children.2/@children.0/@children.0/@anchors.0">
+    <graphicsAlgorithm xsi:type="al:Polyline" foreground="//@colors.2" lineWidth="2" filled="false" transparency="0.0"/>
+    <link>
+      <businessObjects href="vita49_loopback_demo.sad.xml#connection_2"/>
+      <businessObjects href="vita49_loopback_demo.sad.xml#//@partitioning/@componentPlacement.1/@componentInstantiation.0/@uses.0"/>
+      <businessObjects href="vita49_loopback_demo.sad.xml#//@partitioning/@componentPlacement.2/@componentInstantiation.0/@provides.0"/>
+    </link>
+    <connectionDecorators visible="true" locationRelative="true" location="1.0">
+      <graphicsAlgorithm xsi:type="al:Polyline" foreground="//@colors.2" lineWidth="2" filled="false" transparency="0.0">
+        <points x="-15" y="10"/>
+        <points/>
+        <points x="-15" y="-10"/>
+      </graphicsAlgorithm>
+    </connectionDecorators>
+  </connections>
+  <colors red="227" green="238" blue="249"/>
+  <colors red="255" green="255" blue="255"/>
+  <colors/>
+  <colors red="250" green="250" blue="250"/>
+  <colors red="255" green="218" blue="105"/>
+  <colors blue="194"/>
+  <fonts name="Sans" size="8"/>
+  <fonts name="Sans" size="8" bold="true"/>
+  <fonts name="Sans" size="11"/>
+</pi:Diagram>
