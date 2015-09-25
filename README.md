@@ -1,10 +1,10 @@
-# REDHAWK Basic Waveforms - 
+# REDHAWK Basic Waveforms - Vita49 Loopback Demo
 
 Actively Managed
  
 ## Description
 
-Contains the source and build script for the REDHAWK Basic Waveform - 
+Contains the source and build script for the REDHAWK Basic Waveform - Vita49_loopback_demo. This waveform uses the sourceVITA49 and sinkVITA49 components to demonstrate how VITA49 network data can move into and out of REDHAWK.
 
 
 ## Active Tags and Branches
