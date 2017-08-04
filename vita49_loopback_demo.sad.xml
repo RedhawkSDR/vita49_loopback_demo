@@ -86,4 +86,10 @@
       </providesport>
     </connectinterface>
   </connections>
+  <externalproperties>
+    <property comprefid="SinkVITA49_1" propid="network_settings" externalpropid="sink_network_settings"/>
+    <property comprefid="SourceVITA49_1" propid="interface" externalpropid="source_interface"/>
+    <property comprefid="SourceVITA49_1" propid="connection_status" externalpropid="source_connection_status"/>
+    <property comprefid="SinkVITA49_1" propid="connection_status" externalpropid="sink_connection_status"/>
+  </externalproperties>
 </softwareassembly>
