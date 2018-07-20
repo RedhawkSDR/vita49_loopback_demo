@@ -26,7 +26,7 @@
 Name: rh.vita49_loopback_demo
 Summary: Waveform rh.vita49_loopback_demo
 Version: 1.0.2
-Release: 1%{?dist}
+Release: 2%{?dist}
 License: LGPLv3+
 Group: REDHAWK/Waveforms
 Source: %{name}-%{version}.tar.gz
